@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Characters</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #0b0b0f;
+            color: #eee;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 40px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 40px;
+            gap: 20px;
+        }
+
+        .card {
+            background: #15151a;
+            border: 1px solid #2a2a2a;
+            border-radius: 12px;
+            width: 250px;
+            padding: 20px;
+            transition: 0.3s;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .name {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #7dd3fc;
+        }
+
+        .desc {
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            background: #1a1a1a;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2a2a2a;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>👥 Characters</h1>
+
+<div class="container">
+
+    <!-- CHARACTER 1 -->
+    <div class="card">
+        <div class="name">Marin</div>
+        <div class="short desc">
+            quiet. cold. always wearing someone else's hoodie.
+        </div>
+
+        <a href="marin.html">
+    <button>More Info</button>
+</a>
+
+    <!-- CHARACTER 2 -->
+    <div class="button">
+        <div class="name">Aiden</div>
+        <div class="short desc">
+            warm. observant. knows more than he says.
+        </div>
+
+         <a href="aiden.html">
+    <button>More Info</button>
+</a>
+ <!-- CHARACTER 3 -->
+    <div class="button">
+        <div class="name">Maddie</div>
+        <div class="short desc">
+            Unsettling. Too egotistical. Will haunt your dreams.
+        </div>
+ <a href="maddie.html">
+    <button>More Info</button>
+</div>
+<a href="index.html">🏠 Back Home</a>
+</body>
+</html>
